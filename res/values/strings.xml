@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Audio Player Demo</string>
+    <string name="init_time">00:00</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="fast_forward">Fast Forward</string>
+    <string name="reverse">Reverse</string>
+    <string name="go_to_beginning">Go to beginning</string>
+    <string name="go_to_end">Go to end</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+    <string name="foreground_service_notificaton_ticker_text">Audio Player Demo</string>
+    <string name="foreground_service_notification_title">Playing…</string>
+    <string name="foreground_service_notification_message">Click to access playback controls</string>
+
+</resources>

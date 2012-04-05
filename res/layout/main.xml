@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/init_time"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/muteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:contentDescription="@string/mute"
+            android:onClick="mute"
+            android:src="@drawable/ic_audio_vol" />
+
+        <ImageButton
+            android:id="@+id/unmuteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:contentDescription="@string/unmute"
+            android:onClick="unmute"
+            android:src="@drawable/ic_audio_vol_mute" />
+    </FrameLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/goToBeginningButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/go_to_beginning"
+            android:onClick="goToBeginning"
+            android:src="@drawable/ic_media_previous" />
+
+        <ImageButton
+            android:id="@+id/reverseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/reverse"
+            android:onClick="reverse"
+            android:src="@drawable/ic_media_rew" />
+
+        <ImageButton
+            android:id="@+id/playButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/play"
+            android:onClick="play"
+            android:src="@drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/pauseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/pause"
+            android:onClick="pause"
+            android:src="@drawable/ic_media_pause" />
+
+        <ImageButton
+            android:id="@+id/stopButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/stop"
+            android:onClick="stop"
+            android:src="@drawable/ic_media_stop" />
+
+        <ImageButton
+            android:id="@+id/fastForwardButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/fast_forward"
+            android:onClick="fastForward"
+            android:src="@drawable/ic_media_ff" />
+
+        <ImageButton
+            android:id="@+id/goToEndButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/go_to_end"
+            android:onClick="goToEnd"
+            android:src="@drawable/ic_media_next" />
+    </LinearLayout>
+
+</LinearLayout>

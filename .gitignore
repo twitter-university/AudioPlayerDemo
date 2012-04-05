@@ -22,8 +22,6 @@
 
 # Generated code #
 ##################
-gen/*
-bin/*
 obj/*
 libs/*
 

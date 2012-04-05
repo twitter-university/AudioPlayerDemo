@@ -1,6 +1,8 @@
 = About Audio Player Demo
 
-Audio Player Demo application was developed to support Marakana's Android Training courses
+This project demonstrates how to develop a simple music playing application.
+
+This code was developed to support Marakana's Android Training courses.
 
 For more info, see http://marakana.com/training/android/
 
